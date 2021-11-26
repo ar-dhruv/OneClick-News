@@ -1,0 +1,58 @@
+{
+  "status": "ok",
+  "totalResults": 10,
+  "articles": [
+    {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "BBC News",
+      "title": "Grand opening for Luxor's 'Avenue of the Sphinxes'",
+      "description": "The ancient walkway, connecting two of the Egyptian city's greatest temples, took decades to excavate.",
+      "url": "http://www.bbc.co.uk/news/world-africa-59424084",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/10D4E/production/_121824986_p0b6fwjd.jpg",
+      "publishedAt": "2021-11-25T23:37:20.6670635Z",
+      "content": "Pharaonic chariots and hundreds of performers featured in a lavish ceremony to mark the opening to the public of the 3,000 year old Avenue of Sphinxes in Luxor, Egypt.\r\nIt's taken decades to excavate… [+392 chars]"
+    },
+    {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "BBC News",
+      "title": "Turkey: Police fire tear gas at women's rights march",
+      "description": "It comes months after Turkey withdrew from a treaty to combat violence against women.",
+      "url": "http://www.bbc.co.uk/news/world-europe-59423301",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/17317/production/_121799949_gettyimages-1355538229.jpg",
+      "publishedAt": "2021-11-25T22:52:21.7793532Z",
+      "content": "Image source, Getty Images\r\nImage caption, The protesters were demanding action against gender-based violence\r\nRiot police in Turkey have fired tear gas at protesters calling for an end to violence a… [+1288 chars]"
+    },
+    {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "BBC News",
+      "title": "Covid: Africa travel restrictions over variant fear",
+      "description": "Several southern African countries have been added to the red list, Health Secretary Sajid Javid says.",
+      "url": "http://www.bbc.co.uk/news/uk-59424269",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/147A/production/_121824250_pa-53560653.jpg",
+      "publishedAt": "2021-11-25T21:22:18.7516491Z",
+      "content": "Travellers arriving from several southern African countries will have to quarantine amid warnings over a new Covid variant.\r\nHealth Secretary Sajid Javid said from 12:00 GMT on Friday six countries w… [+1191 chars]"
+    },
+    {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "BBC News",
+      "title": "Death toll soars to 52 in Russian coal mine accident",
+      "description": "A search for survivors after a fire in a Siberian mine turns to tragedy, with rescuers among the dead.",
+      "url": "http://www.bbc.co.uk/news/world-europe-59421319",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/17AD3/production/_121797969_mediaitem121797968.jpg",
+      "publishedAt": "2021-11-25T20:52:20.6463665Z",
+      "content": "The death toll from an accident at a Siberian coal mine has risen to 52, according to Russian media reports.\r\nInitially, 11 people were confirmed to have died after coal dust in a ventilation shaft c… [+1899 chars]"
+    }
+  ]
+}
