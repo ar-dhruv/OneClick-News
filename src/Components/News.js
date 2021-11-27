@@ -25,7 +25,7 @@ export class News extends Component {
   }
 
   handleNextClick = async () => {
-    if (this.state.page + 1 > Math.ceil(this.state.totalResults)) {
+    if (this.state.page + 1 > Math.ceil(this.state.totalResults / 20)) {
     } else {
       let url = `https://newsapi.org/v2/top-headlines?country=in&apiKey=8a4aaac048ce4d1ea4a7354982de5fdf&page=${
         this.state.page + 1
@@ -57,7 +57,7 @@ export class News extends Component {
   render() {
     return (
       <div className="container my-3">
-        <h1>OneClick - Top HeadLines</h1>
+        <h1 className="text-center my-4">OneClick - Top HeadLines</h1>
 
         <div className="row">
           {this.state.articles.map((element) => {
@@ -86,6 +86,9 @@ export class News extends Component {
             type="button"
             className="btn btn-dark"
             onClick={this.handleNextClick}
+            disabled={
+              this.state.page + 1 > Math.ceil(this.state.totalResults / 20)
+            }
           >
             Next &raquo;
           </button>
