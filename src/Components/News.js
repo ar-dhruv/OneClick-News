@@ -15,14 +15,18 @@ export class News extends Component {
     category: PropTypes.string,
   };
 
-  constructor() {
-    super();
-    console.log("Constructor of News Component");
+  capitalizeFirst = (string) => {
+    return string.charAt(0).toUpperCase() + string.slice(1);
+  };
+
+  constructor(props) {
+    super(props);
     this.state = {
       articles: [],
       loading: false,
       page: 1,
     };
+    document.title = `${this.capitalizeFirst(this.props.category)} - OneClick`;
   }
 
   async updateNews(pageNo) {
@@ -30,7 +34,7 @@ export class News extends Component {
     this.setState({ loading: true });
     let data = await fetch(url);
     let parsedData = await data.json();
-    console.log(parsedData);
+
     this.setState({
       articles: parsedData.articles,
       totalResults: parsedData.totalResults,
@@ -54,7 +58,9 @@ export class News extends Component {
   render() {
     return (
       <div className="container my-3">
-        <h1 className="text-center my-4">OneClick - Top HeadLines</h1>
+        <h1 className="text-center my-4">
+          OneClick - Top {this.capitalizeFirst(this.props.category)} HeadLines
+        </h1>
         {this.state.loading && <Spinner />}
         <div className="row">
           {!this.state.loading &&
